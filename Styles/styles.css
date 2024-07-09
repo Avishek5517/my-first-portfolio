@@ -11,6 +11,22 @@
 .text-primary{
     color: #FD6E0A;
 }
+.text-center{
+    text-align: center;
+}
+.dark-3{
+    color: #757575;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+}
 
 /* Button */
 .btn-common{
@@ -110,23 +126,16 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
-.section-title{
-    font-size: 35px;
-    font-weight: bold;
-    color: #181818;
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
 }
-.section-description{
-    font-size: 18px;
-    font-weight: 400;
-    color: #757575;
-}
+
 /* about styles*/
 .about{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
-    margin-bottom: 120px;
 }
 .about-items{
     display: flex;
@@ -142,3 +151,25 @@ main{
     font-size: 20px;
     color: #474747;
 }
+ /* about styles complete */
+
+ /* what I do start */
+
+ /* Skill section Styles */
+.skills-container{
+    display: flex;
+    margin: 50px 0px;
+    gap: 0px 24px; 
+}
+.skill-content{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+.skill-description{
+    text-align: justify;
+    font-size: 18px;
+} 
+/* what i do ends */
+
+/*  */
