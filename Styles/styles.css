@@ -1,167 +1,164 @@
 .open-sans-normal {
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
 
 /* shared styles */
 .text-primary {
-    color: #FD6E0A;
+  color: #fd6e0a;
 }
 
 .text-center {
-    text-align: center;
+  text-align: center;
 }
 
 .dark-3 {
-    color: #757575;
+  color: #757575;
 }
 
 .section-title {
-    font-size: 35px;
-    font-weight: bold;
-    color: #181818;
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
 }
 
 .section-description {
-    font-size: 18px;
-    font-weight: 400;
-    color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  color: #757575;
 }
 
 /* Button */
 .btn-common {
-    background-color: #FD6E0A;
-    font-weight: bold;
-    color: white;
-    padding: 18px 35px;
-    border-radius: 5px;
-    border: none;
-    font-size: 20px;
+  background-color: #fd6e0a;
+  font-weight: bold;
+  color: white;
+  padding: 18px 35px;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
 }
 
 .header {
-    background-image: url('../images/developer.png'), url('../images/header_bg.png');
-    background-repeat: no-repeat;
-    background-position: top left, bottom right;
+  background-image: url("../images/developer.png"),
+    url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
 }
 
 .secondary-background {
-    background-color: #FFF8F3;
+  background-color: #fff8f3;
 }
 
 /* font color */
 .dark-2 {
-    color: #474747;
+  color: #474747;
 }
 
 /* Navbar Style */
 nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0px 210px;
-
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 210px;
 }
 
 /* Navbar title */
 .nav-title {
-    font-weight: 800;
-    font-size: 45px;
+  font-weight: 800;
+  font-size: 45px;
 }
 
 /* list items alignmet */
 nav ul {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 nav ul li {
-    list-style: none;
+  list-style: none;
 }
 
 ul li a {
-    text-decoration: none;
-    font-size: 20px;
-    margin-right: 50px;
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 50px;
 }
 
 /* Banner Styles */
 .banner {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .banner-content {
-    max-width: 585px;
-    max-height: 356px;
-    margin-left: 210px;
-
+  max-width: 585px;
+  max-height: 356px;
+  margin-left: 210px;
 }
 
 .banner-greetings {
-    font-weight: 600;
-    font-size: 45px;
-
+  font-weight: 600;
+  font-size: 45px;
 }
 
 .banner-title {
-    font-weight: bold;
-    font-size: 85px;
+  font-weight: bold;
+  font-size: 85px;
 }
 
 .banner-description {
-    font-size: 18px;
-    font-weight: 400;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .banner-profile-pic {
-    width: 585px;
-    height: 676px;
-    margin-right: 42px;
+  width: 585px;
+  height: 676px;
+  margin-right: 42px;
 }
 
 .pair {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 /* Header Section Complete */
 
 /* body */
 main {
-    max-width: 1140px;
-    margin: 0 auto;
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
 main section {
-    margin-top: 130px;
-    margin-bottom: 130px;
+  margin-top: 130px;
+  margin-bottom: 130px;
 }
 
 /* about styles*/
 .about {
-    border-radius: 10px;
-    padding: 130px 150px;
-    text-align: center;
+  border-radius: 10px;
+  padding: 130px 150px;
+  text-align: center;
 }
 
 .about-items {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
 }
 
 .about-title {
-    font-size: 20px;
-    font-weight: normal;
+  font-size: 20px;
+  font-weight: normal;
 }
 
 .about-description {
-    font-weight: 600;
-    font-size: 20px;
-    color: #474747;
+  font-weight: 600;
+  font-size: 20px;
+  color: #474747;
 }
 
 /* about styles complete */
@@ -170,92 +167,120 @@ main section {
 
 /* Skill section Styles */
 .skills-container {
-    display: flex;
-    margin: 50px 0px;
-    gap: 0px 24px;
+  display: flex;
+  margin: 50px 0px;
+  gap: 0px 24px;
 }
 
 .skill-content {
-    padding: 30px;
-    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-    border-radius: 5px;
+  padding: 30px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
 }
 
 .skill-description {
-    text-align: justify;
-    font-size: 18px;
+  text-align: justify;
+  font-size: 18px;
 }
 
 /* what i do ends */
 
 /* resume */
 .resume-container {
-    display: flex;
-    gap: 24px;
+  display: flex;
+  gap: 24px;
 }
 
 .resume-title {
-    font-size: 30px;
-    font-weight: bold;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .experience-title {
-    font-size: 25px;
-    font-weight: bold;
-    margin-bottom: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .experience-subtitle {
-    font-size: 20px;
-    font-weight: 600;
-    margin-top: 0px;
-    margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 0px;
+  margin-bottom: 20px;
 }
 
 .experience-description {
-    font-size: 16px;
-    font-weight: normal;
-    margin-bottom: 30px;
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 30px;
 }
 
 .resume-download-cv {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 /* Resume done */
 
 /* footer start */
 footer {
-    display: flex;
-    padding: 130px 230px;
-    gap: 100px;
+  display: flex;
+  padding: 130px 230px;
+  gap: 100px;
 }
 
 .footer-column {
-    width: 50%;
+  width: 50%;
 }
 
 footer input[type="text"],
 footer input[type="email"] {
-    width: 100%;
-    height: 64px;
-    display: block;
-    padding: 18px 30px;
-    background-color: white;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    border: none;
-    font-size: 16px;
+  width: 100%;
+  height: 64px;
+  display: block;
+  padding: 18px 30px;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  border: none;
+  font-size: 16px;
 }
 
 footer textarea {
-    width: 100%;
-    display: block;
-    padding: 18px 30px;
-    background-color: white;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    border: none;
-    font-size: 16px;
+  width: 100%;
+  display: block;
+  padding: 18px 30px;
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: none;
+  font-size: 16px;
+}
+
+/* making the website responsive */
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .skills-container{
+        flex-direction: column;
+    } 
+
+    .resume-container{
+        flex-direction: column;
+        padding-left: 5px;
+    }
+    footer{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .footer-column{
+        width: 100%
+    }
+    footer input[type="text"],
+    footer input[type="email"],
+    footer textarea{
+        width: calc(100% - 50px);
+    }
 
 }
