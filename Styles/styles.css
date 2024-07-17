@@ -282,11 +282,40 @@ footer textarea {
   footer textarea {
     width: calc(100% - 50px);
   }
-  .about{
+  .about {
     padding: 20px;
   }
-  .about-items{
+  .about-items {
     flex-direction: column;
   }
-}
+  .banner {
+    flex-direction: column;
+    align-items: center;
+  }
+  .banner-content {
+    margin-left: 10px;
+  }
+  .header {
+    background-image: none;
+  }
+  .banner-profile-pic {
+    width: 100%;
+    height: auto;
+    margin-top: 250px;
+  }
+  nav {
+    flex-direction: column;
+    margin: 10px;
+  }
+  nav ul {
+    flex-direction: column;
 
+    gap: 10px;
+  }
+  .btn-common {
+    padding: 15px;
+  }
+  .pair {
+    margin-top: 15px;
+  }
+}
