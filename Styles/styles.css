@@ -257,11 +257,7 @@ footer textarea {
 }
 
 /* making the website responsive */
-.hide {
-  display: none;
-}
-
-@media screen and (max-width: 576px) {
+/* @media screen and (max-width: 576px) {
   .skills-container {
     flex-direction: column;
   }
@@ -309,7 +305,6 @@ footer textarea {
   }
   nav ul {
     flex-direction: column;
-
     gap: 10px;
   }
   .btn-common {
@@ -317,5 +312,38 @@ footer textarea {
   }
   .pair {
     margin-top: 15px;
+  }
+} */
+
+/* making the website responsive again */
+.hide {
+  display: none;
+}
+@media screen and (max-width: 576px) {
+  .skills-container {
+    flex-direction: column;
+  }
+  .resume-container {
+    flex-direction: column;
+    padding: 0 10px;
+  }
+  footer {
+    flex-direction: column;
+    padding: 10px;
+    gap: 0;
+  }
+  .footer-column {
+    width: 100%;
+  }
+  footer input[type="text"],
+  footer input[type="email"],
+  footer textarea {
+    width: calc(100% - 60px);
+  }
+  .about{
+    padding: 10px;
+  }
+  .about-items{
+    flex-direction: column;
   }
 }
